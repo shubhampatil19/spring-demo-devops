@@ -9,6 +9,6 @@ public class HelloController
     @GetMapping("/hello")
     public String hello()
     {
-        return "Hello this only demo of Spring Application for dev-ops";
+        return "Hello this only demo of Spring Application for dev_ops";
     }
 }
