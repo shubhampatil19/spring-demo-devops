@@ -1,4 +1,4 @@
 FROM eclipse-temurin:21-jdk
 EXPOSE 8080
-ADD target/* springdemo-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","/springdemo-0.0.1-SNAPSHOT.jar"]
+ADD target/springdemo.jar app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
